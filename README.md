@@ -20,10 +20,9 @@ com as seguintes funcionalidades:
 
 Abaixo estão descritos como as requisições devem serem feitas e o retorno que apresenta
 
+<a name="adicionar"></a>
 
 1. ### Adicionar desenvolvedor
-    
-    <a name="adicionar"></a>
 
     *POST {host:port}/developers*
 
@@ -74,9 +73,9 @@ Abaixo estão descritos como as requisições devem serem feitas e o retorno que
     }
     ```
 
-2. ### Editar um desenvolvedores
+<a name="editar"></a>
 
-    <a name="editar"></a>
+2. ### Editar um desenvolvedores
 
     *PUT {host:port}/developers/{id}*
 
@@ -106,9 +105,9 @@ Abaixo estão descritos como as requisições devem serem feitas e o retorno que
     }
     ```
 
-3. ### Listar todos desenvolvedores
+<a name="listar"></a>
 
-    <a name="listar"></a>
+3. ### Listar todos desenvolvedores
 
     *GET {host:port}/developers*
 
@@ -157,9 +156,9 @@ Abaixo estão descritos como as requisições devem serem feitas e o retorno que
     }
     ```
 
-4. ### Listar um desenvolvedor pelo ID
+<a name="listarid"></a>
 
-    <a name="listarid"></a>
+4. ### Listar um desenvolvedor pelo ID
 
     *GET {host:port}/developers/{id}*
     
@@ -182,9 +181,9 @@ Abaixo estão descritos como as requisições devem serem feitas e o retorno que
     }
     ```
 
-5. ### Pocurar desenvolvedores usando `filtro`
+<a name="filter"></a>
 
-    <a name="filter"></a>
+5. ### Pocurar desenvolvedores usando `filtro`
     
     *GET {host:port}/developers/filter*
     
@@ -213,9 +212,9 @@ Abaixo estão descritos como as requisições devem serem feitas e o retorno que
     }
     ```
 
-6. ### Excluir um desenvolvedor
+<a name="excluir"></a>
 
-    <a name="excluir"></a>
+6. ### Excluir um desenvolvedor
 
     *DELETE {host:port}/developers/{id}*
 
@@ -233,9 +232,9 @@ Abaixo estão descritos como as requisições devem serem feitas e o retorno que
     }
     ```
 
-7. ## Testes
+<a name="testes"></a>
 
-    <a name="testes"></a>
+7. ## Testes
 
     *POST {host:port}/tests/add*
 
@@ -277,10 +276,9 @@ Abaixo estão descritos como as requisições devem serem feitas e o retorno que
     }
     ```
 
+<a name="final"></a>
 
 ## Finalizando
-
-<a name="final"></a>
 
 Para armazenar o projeto de forma padronizada ele foi adicionado a uma imagem Docker que pode ser acessada neste link:
 <a href="https://drive.google.com/file/d/1X9Q66MU5p9talUd6jrpN02GVoptH8M6K/view?usp=sharing">https://drive.google.com/file/d/1X9Q66MU5p9talUd6jrpN02GVoptH8M6K/view?usp=sharing</a>

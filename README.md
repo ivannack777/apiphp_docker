@@ -280,7 +280,7 @@ Abaixo estão descritos como as requisições devem serem feitas e o retorno que
 
 ## Finalizando
 
-Para armazenar o projeto de forma padronizada ele foi adicionado a uma imagem Docker que pode ser acessada neste link:
+Para armazenar o projeto de forma padronizada, ele foi adicionado a uma imagem Docker que pode ser acessada neste link:
 <a href="https://drive.google.com/file/d/1X9Q66MU5p9talUd6jrpN02GVoptH8M6K/view?usp=sharing">https://drive.google.com/file/d/1X9Q66MU5p9talUd6jrpN02GVoptH8M6K/view?usp=sharing</a>
 
 Após baixado, em um terminal, pode ser carregado no Docker previamente instalado, atraves do comando load
